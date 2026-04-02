@@ -7,7 +7,7 @@ const __fileName = fileURLToPath(import.meta.url);
 const __dirName = path.dirname(__fileName);
 
 export default {
-  entry: "./src/index.js",
+  entry: "./src/index.ts",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirName, "dist"),
@@ -24,7 +24,7 @@ export default {
         ],
       },
       {
-        test: /\.(?:js|mjs|cjs)$/,
+        test: /\.(?:js|mjs|cjs|ts)$/,
         exclude: /node_modules/,
         use: "babel-loader",
       },
