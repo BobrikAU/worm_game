@@ -18,6 +18,7 @@
   "type": "module",
   "main": "./src/index.js",
   "scripts": {
+    "test": "jest",
     "type-check": "tsc",
     "start": "npm run type-check && webpack serve --config webpack.dev.js --open",
     "build": "npm run type-check && webpack --config webpack.prod.js"
@@ -26,10 +27,12 @@
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.2",
     "@babel/preset-typescript": "^7.28.5",
+    "@types/jest": "^30.0.0",
     "babel-loader": "^10.1.1",
     "css-loader": "^7.1.4",
     "css-minimizer-webpack-plugin": "^8.0.0",
     "html-webpack-plugin": "^5.6.6",
+    "jest": "^30.3.0",
     "mini-css-extract-plugin": "^2.10.1",
     "postcss": "^8.5.8",
     "postcss-loader": "^8.2.1",
