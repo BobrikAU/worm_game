@@ -6,6 +6,48 @@
     <title>Wurm</title>
   </head>
   <body>
-    <p>Hallo Wurm!! Wie geht's??????</p>
+    <div class="mainWindow">
+      <div class="mainWindow__field"></div>
+      <button
+        type="button"
+        class="mainWindow__button mainWindow__button_move_up"
+      >
+        <img
+          src="<%=require('./assets/images/arrow_icon.svg')%>"
+          alt="Pfeil nach oben"
+          class="mainWindow__arrow mainWindow__arrow_direction_up"
+        />
+      </button>
+      <button
+        type="button"
+        class="mainWindow__button mainWindow__button_move_left"
+      >
+        <img
+          src="<%=require('./assets/images/arrow_icon.svg')%>"
+          alt="Pfeil nach links"
+          class="mainWindow__arrow mainWindow__arrow_direction_left"
+        />
+      </button>
+      <button
+        type="button"
+        class="mainWindow__button mainWindow__button_move_right"
+      >
+        <img
+          src="<%=require('./assets/images/arrow_icon.svg')%>"
+          alt="Pfeil nach rechts"
+          class="mainWindow__arrow mainWindow__arrow_direction_right"
+        />
+      </button>
+      <button
+        type="button"
+        class="mainWindow__button mainWindow__button_move_down"
+      >
+        <img
+          src="<%=require('./assets/images/arrow_icon.svg')%>"
+          alt="Pfeil nach unten"
+          class="mainWindow__arrow"
+        />
+      </button>
+    </div>
   </body>
 </html>
