@@ -1,0 +1,33 @@
+.mainWindow {
+  display: grid;
+  grid-template-columns: 10% 2% 28% 20% 28% 2% 10%;
+  grid-template-rows: 10% 2% 28% 20% 28% 2% 10%;
+  grid-template-areas:
+    ". . . button_up . . ."
+    ". . . . . . ."
+    ". . field field field . ."
+    "button_left . field field field . button_right"
+    ". . field field field . ."
+    ". . . . . . ."
+    ". . . button_down . . .";
+}
+
+@media screen and (orientation: landscape) {
+  .mainWindow {
+    width: 96vh;
+    height: 96vh;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 800px) {
+    .mainWindow {
+      height: 96dvh;
+    }
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .mainWindow {
+    width: 96vw;
+    height: 96vw;
+  }
+}

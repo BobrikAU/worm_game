@@ -28,6 +28,10 @@ export default {
         exclude: /node_modules/,
         use: "babel-loader",
       },
+      {
+        test: /\.svg$/i,
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [
