@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`контенер для игрового поля имеется 1`] = `
+<div
+  class="mainWindow__field"
+/>
+`;
+
+exports[`создание игрового поля 1`] = `
+<div
+  class="mainWindow__field"
+  style="grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(5, 1fr);"
+>
+  <div
+    class="cell_0_0"
+  />
+  <div
+    class="cell_0_1"
+  />
+  <div
+    class="cell_0_2"
+  />
+  <div
+    class="cell_0_3"
+  />
+  <div
+    class="cell_0_4"
+  />
+  <div
+    class="cell_1_0"
+  />
+  <div
+    class="cell_1_1"
+  />
+  <div
+    class="cell_1_2"
+  />
+  <div
+    class="cell_1_3"
+  />
+  <div
+    class="cell_1_4"
+  />
+  <div
+    class="cell_2_0"
+  />
+  <div
+    class="cell_2_1"
+  />
+  <div
+    class="cell_2_2"
+  />
+  <div
+    class="cell_2_3"
+  />
+  <div
+    class="cell_2_4"
+  />
+  <div
+    class="cell_3_0"
+  />
+  <div
+    class="cell_3_1"
+  />
+  <div
+    class="cell_3_2"
+  />
+  <div
+    class="cell_3_3"
+  />
+  <div
+    class="cell_3_4"
+  />
+  <div
+    class="cell_4_0"
+  />
+  <div
+    class="cell_4_1"
+  />
+  <div
+    class="cell_4_2"
+  />
+  <div
+    class="cell_4_3"
+  />
+  <div
+    class="cell_4_4"
+  />
+</div>
+`;
